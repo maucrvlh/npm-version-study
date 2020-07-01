@@ -1,14 +1,11 @@
 {
   "name": "npm-version-study",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "echo \"Builded.\" >> dist/builded.js && echo \"All builded!\" && exit 0",
-    "test": "echo \"All tests passed!\" && exit 0",
-    "preversion": "npm test",
-    "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags && rm -rf build/temp"
+    "test": "echo \"All tests passed!\" && exit 0"
   },
   "author": "",
   "license": "ISC"
